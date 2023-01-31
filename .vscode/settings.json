@@ -1,0 +1,10 @@
+{
+    "editor.detectIndentation": true,
+    "editor.renderWhitespace": "selection",
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.comments.insertSpace": false,
+    "editor.hover.above": false
+}
