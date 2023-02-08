@@ -10,3 +10,4 @@ class Tech(models.Model):
     email = models.EmailField()
     begin_date = models.DateTimeField(auto_now_add=True)
     photo = models.ImageField()
+    active = models.BooleanField(default=True)
