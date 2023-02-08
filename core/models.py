@@ -9,3 +9,4 @@ class Tech(models.Model):
     phone = models.CharField(max_length=11)
     email = models.EmailField()
     begin_date = models.DateTimeField(auto_now_add=True)
+    photo = models.ImageField()
