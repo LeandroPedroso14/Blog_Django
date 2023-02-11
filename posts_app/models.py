@@ -8,3 +8,11 @@ class Posts(models.Model):
     description = models.TextField()
     image = models.ImageField(upload_to='imges/')
     create_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = 'Post'
+        verbose_name_plural = 'Post'
+        ordering = ['id']
